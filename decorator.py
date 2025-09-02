@@ -6,8 +6,7 @@ pgn_parser = Parser()
 pgn_parser.fetch_pgn("game.pgn")
 
 def apply_stock(func):
-    def wrapper(*args, **kwargs):
-
+    def wrapper(*args, **kwargs):
         return func(*args,
                     send_cmd=stockfishy.send_cmd,
                     fetch_resp=stockfishy.fetch_resp,
