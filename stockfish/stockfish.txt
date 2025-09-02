@@ -1,0 +1,2 @@
+stockfish binary located here:
+https://stockfishchess.org/download/
