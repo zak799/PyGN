@@ -2,7 +2,7 @@ import subprocess
 import os # time
 
 class Stockfish:
-    def __init__(self, path = "stockfish/stockfish/stockfish-windows-x86-64-avx2.exe"):
+    def __init__(self, path = "stockfish/stockfish-windows-x86-64-avx2.exe"):
         self.stockfish = subprocess.Popen(
             path,
             stdin = subprocess.PIPE,
