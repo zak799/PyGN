@@ -2,4 +2,5 @@
 
 Usage:
 ```git
-git install https://github.com/zak799/PyGN.git```
+git install https://github.com/zak799/PyGN.git
+```
